@@ -24,8 +24,8 @@ a {
 }
 
 .logo-devconf-lg {
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   position: relative;
   margin-right: 5rem;
 }
@@ -1162,7 +1162,7 @@ i {
     height: 100%;
     opacity: 1;
     background: -webkit-linear-gradient(30deg,rgba(74, 8, 100, 0.8)  30%, rgba(149, 26, 161, 0.8) 70%);
-    background: linear-gradient(30deg,rgba(74, 8, 100, 0.8)  30%, rgba(149, 26, 161, 0.8) 70%);
+    background: linear-gradient(30deg,rgba(242, 159, 37, .8) 30%,rgba(149,26,161,.8) 70%);
 }
 
 .player video {
