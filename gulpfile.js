@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require( 'gulp' );
-var year = require('optimist').argv.year || process.env.YEAR;
+var year = 2020
 var eventFile = './src/events/' + year + '.json';
 var connect = require( 'gulp-connect' );
 var concat = require( 'gulp-concat' );
