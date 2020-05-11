@@ -29,35 +29,32 @@
     },
     {
       "time": "-",
-      "title": "Priorizando dívidas técnicas e modernizando o legado como se tempo e dinheiro fossem importantes",
-      "details": "Desenvolver software novo é fantástico. Infelizmente, essa não é a realidade da maioria dos devs. Por isso, nesta palestra, falaremos sobre legado. Discutiremos conceitos relevantes e técnicas para priorizar e 'pagar' dívidas técnicas, modernizando de forma efetiva o legado.Iremos falar sobre ferramentas e atividades críticas para modernização saudável do legado.No final, todos estaremos um pouco mais preparados para melhorar aquele sistema que está cansado mas é bom sobretudo porque paga as contas.",
+      "title": "Título da Palestra",
+      "details": "",
       "speaker": {
-        "name": "Elemar Jr.",
-        "company": "Eximia.co",
-        "photo": "assets/img/2020_elemar_jr.jpg",
+        "name": "Fernando Daciuk.",
+        "company": "lukin_co",
+        "photo": "assets/img/unnamed.png",
         "priority": 1,
-        "bio": "Atuo como consultor, curador e mentor  de tecnologias e negócios. sou  especialista em arquitetura de software, no desenvolvimento de soluções  com alta complexidade ou de alto custo computacional, e também tenho  expertise em estratégia para a inovação. Busco mais do que bons  produtos. desenvolvo ótimos negócios. Sou membro do time de desenvolvimento do RavenDB.  O banco de dados NoSQL desenvolvido pela Hibernating Rhinos é utilizado  por grandes players em todo o mundo. Na empresa, tenho a oportunidade de  trabalhar com profissionais também reconhecidos internacionalmente, como o Ayende. Sou Microsoft Most Valuable Professional (MVP) desde 2012 - um reconhecimento,  principalmente com tecnologias Microsoft. Participo como palestrante em  alguns dos mais prestigiados eventos de tecnologia e inovação, incluindo  QCON, TDC, DeveloperWeek e o TechEd.",
+        "bio": "",
         "social": [
-          { "type": "twitter", "url": "https://twitter.com/elemarjr" },
-          { "type": "linkedin", "url": "https://www.linkedin.com/in/elemarjr/" },
-          { "type": "github", "url": "https://github.com/elemarjr" }
+          { "type": "twitter", "url": "https://twitter.com/fdaciuk" },
+          { "type": "github", "url": "https://github.com/fdaciuk" }
         ]
       }
     },
     {
       "time": "-",
-      "title": "Uma jornada pelos seus microsserviços com BFF e GraphQL",
-      "details": "- Um aplicação com o tempo tende a crescer devido a demanda do negócio.<br> - Temos um problema! O que fazer?<br> - Separar o frontend e quebrar o backend em diversos serviços. E agora?<br> - Temos n problemas!<br>Em termos técnicos, o frontend precisa agora entender as diversas APIs e muitas vezes transformar os dados antes de exibir ao usuários final. E se adicionarmos um novo frontend, como um aplicativo mobile? BFF (backend for frontend) é um padrão que tem, por ideia principal, criar um backend único por frontend. E junto com GraphQL, onde toda a flexibilidade dos dados obtidos é dada ao próprio cliente. A ideia da palestra é mostrar o dinamismo que GraphQL nos dá pela sua capacidade de funcionar em diversos protocolos, e utilizar um padrão onde as APIs estão diretamente ligadas ao usuário final.",
+      "title": "",
+      "details": "",
       "speaker": {
-        "name": "Felipe Gentil",
-        "company": "CargoX",
-        "photo": "assets/img/2020_gentil.jpg",
+        "name": "Gustavo Castellano",
+        "company": "BGCPlatinon",
+        "photo": "assets/img/download.jpeg",
         "priority": 3,
-        "bio": "Desenvolvedor desde 2011 e cozinheiro nas horas vagas! Trabalho com Ruby desde 2012 e atualmente trabalhando com Ruby e Python na CargoX, uma startup na área de transportes no Brasil, situada em São Paulo.",
+        "bio": "",
         "social": [
-          { "type": "twitter", "url": "https://twitter.com/fpgentil" },
-          { "type": "linkedin", "url": "https://www.linkedin.com/in/felipepelizarogentil/" },
-          { "type": "github", "url": "https://github.com/fpgentil" }
+          { "type": "linkedin", "url": "https://br.linkedin.com/in/ghcastellano" }
         ]
       }
     },
@@ -67,7 +64,112 @@
     },
     {
       "time": "-",
-      "title": "-",
+      "title": "Microsserviços e Monólitos em 2020",
+      "details": "O estilo arquitetural baseado em microsserviços não é recente, tampouco software monolítico deixou de existir. A que se deve esse fato? Entenda o que são microsserviços e monólitos na visão moderna, prós e contras e como essas abordagens se complementam e devem ser utilizadas em conjunto na chamada “caixa de ferramentas” do profissional de TI.",
+      "speaker": {
+        "name": "Samuel Grigolatto",
+        "company": "Rentbrella",
+        "photo": "assets/img/samuel.jpegvic",
+        "priority": 3,
+        "bio": "Consultor de TI há 13 anos no mercado, já participou de projetos com arquitetura monolítica, baseada em microsserviços, e também uma mistura entre as duas. Atualmente é CTO da Rentbrella, aplicativo de compartilhamento de guarda-chuva com cerca de 400 estações operantes no Brasil, em processo de expansão internacional. Também compõe o corpo docente do curso lato sensu de desenvolvimento web da UFSCar.",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/samuel-grigolato/"}
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "DevOps & Site Reliability Engineering",
+      "details": "",
+      "speaker": {
+        "name": "Victor Bogo",
+        "company": "Pier",
+        "photo": "assets/img/bogo.jpg",
+        "priority": 3,
+        "bio": "Working as a Software Engineer in the first years of my career made me get in touch with interesting tools and platforms. After some time, I started to realize that the SiteReliability Engineering responsibilities and practices were something that I would really appreciate to work with.",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/victorbogo/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "Agilidade de alta performance, mito ou realidade? ",
+      "details": "Entenda como as Fintechs revolucionam o mercado através da agilidade em seus times.",
+      "speaker": {
+        "name": "Vaner Teixeira",
+        "company": "UOL",
+        "photo": "assets/img/vanerteixeira.jpg",
+        "priority": 3,
+        "bio": "Especialista em Transformação Ágil, Consultor em Processo, Projetos e Instrutor Agile. Trabalho transformando empresas, construindo parcerias e inovando através do desenvolvimento de produtos digitais que transformem o negócio e a vida das pessoas. Lema: Conhecimento é para ser compartilhado. Certificações Ágeis:  PACC®, PSPO®, PSM®, PSK®",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/vaner-teixeira/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "Serverless: A revolução na nuvem",
+      "details": "Nesta palestra vamos discutir sobre a mudança da mentalidade das pessoas em relação a reserva de recursos e como essa revolução começou com o cloud computing indo desde a IaaS ou Infrastructure as a Service, passando pela PaaS ou Platform as a Service para enfim chegar em FaaS ou Function as a Service. Vamos abordar as diferenças fundamentais entre esses modelos, onde se aplicam e porque o conceito de Serverless veio para mudar a forma como estruturamos a arquitetura das aplicações, abordando conceitos de Microservice e Nanoservice. Falaremos também dos principais provedores de FaaS do mercado e de como trabalhar de maneira neutra e transparente por meio dos principais frameworks que existem no mercado.",
+      "speaker": {
+        "name": "Rodrigo Branas",
+        "company": "",
+        "photo": "assets/img/branas_10.jpg",
+        "priority": 3,
+        "bio": "Rodrigo Branas é arquiteto de software, professor, autor e palestrante, especializado na linguagem JavaScript e com mais de 20 anos de experiência. Atualmente é CTO de uma empresa que desenvolve soluções para a área de educação, com mais de 1000 clientes em todo o país. Além disso, tem um canal no YouTube onde fala sobre Vue.js, Node, JavaScript, Testes, Microservices, API, HTTP, Rest, GraphQL e muito mais!",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/rodrigobranas/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "Porque e como usamos Go na Codenation",
+      "details": "",
+      "speaker": {
+        "name": "Elton Minetto",
+        "company": "CodeNation",
+        "photo": "assets/img/Elton2019.png",
+        "priority": 3,
+        "bio": "Elton Minetto possui graduação e especialização em Ciência de Computação. É desenvolvedor de software com mais de 20 anos de experiência, professor, escritor e palestrante. Atualmente é CTO da Codenation e autor das newsletters A Semana Go e A Semana PHP.",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/eminetto/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "",
+      "details": "",
+      "speaker": {
+        "name": "Carlos Eduardo Ribeiro",
+        "company": "",
+        "photo": "assets/img/CarlosEduardoRibeiro.jpeg",
+        "priority": 3,
+        "bio": "Engenheiro de Software com skills no ecossistema Ruby, Java e Javascript. Tenho experiência em frameworks de desenvolvimento como Rails e Sinatra. Entusiasta de Design de API, arquitetura de software, cloud e CI/CD. Gosto de trabalhar com cloud, docker, OpenShift, Terraform, Ansible e outras ferramentas para entrega e gerenciamento do meu software. Meu github (https://github.com/duduribeiro) tem bastante dos meus projetos.",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/carloseduribeiro/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "From Zero to Hero",
+      "details": "",
+      "speaker": {
+        "name": "Camila Campos",
+        "company": "Creditas",
+        "photo": "assets/img/CamilaCampos.jpeg",
+        "priority": 3,
+        "bio": "Formada em Sistemas de Informação na EACH-USP, a chata dos testes que trabalha como engenheira de software na Creditas e organiza o Rails Girls São Paulo e o Women Dev Summit.",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/camposmilaa/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "iOS in 2020: State of the Art",
       "speaker": {
         "name": "Yasmin Benatti",
         "company": "iFood",
@@ -75,24 +177,67 @@
         "priority": 2,
         "bio": "Yasmin Benatti é dev iOS no time de Mobile Platform no iFood, é host do MovileCast e dos meetups Movile Tech Women e Cocoaheads Campinas. Apaixonada por diversidade, decoração de interiores, DIY e cafés coados.",
         "social": [
-          { "type": "twitter", "url": "http://twitter.com/minbenatti" },
-          { "type": "linkedin", "url": "https://www.linkedin.com/in/yasminbenatti/" },
-          { "type": "github", "url": "https://github.com/yabenatti" }
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/yasminbenatti/" }
         ]
       }
     },
     {
       "time": "-",
-      "title": "BERT: Por que todos precisam conhecer?",
-      "details": "BERT é um modelo de deep learning que apresentou os melhores resultados em 11 tasks de NLP. Essa nova tecnologia causa mudanças essênciais na forma que construímos modelos de processamento de linguagem natural. Porém, não é apenas a pessoa que trabalha com NLP que precisa conhecer sobre BERT. A partir do final de 2019, o que está por trás do sistema de buscas no Google é esta nova tecnologia que afeta cerca de 10% das procuras realizadas no buscador mais utilizado no mundo. Nesta palestra vamos conhecer o que está por trás do BERT, o porquê vai afetar as buscas em seu site e como se adaptar a esta tecnologia.",
+      "title": "",
+      "details": "",
       "speaker": {
-        "name": "Thiago Gonçalves",
-        "company": "Alura",
-        "photo": "assets/img/2020_thiago.jpg",
+        "name": "Loiane Groner",
+        "company": "",
+        "photo": "assets/img/loiane-magicaldev.png",
         "priority": 3,
-        "bio": "Apaixonado por dados e educação. Trabalho a quase 5 anos com Data Science (Ciência de Dados), iniciei a carreira em dados na Whirlpool - maior fabricante de eletrodomésticos do mundo, depois participei no desenvolvimento de modelos de NLP (Processamento de Linguagem Natural) em projetos de pesquisa para a Petrobrás. Atualmente sou um dos resoponsáveis pela área de Machine Learning e Data Science na Alura, a maior plataforma de ensino de tecnologia do Brasil. ",
+        "bio": "Loiane Groner possui 14 anos de experiência em TI, trabalha como engenheira de software e analista de negócios nos Estados Unidos e ama compartilhar conhecimento! Palestrante internacional, é autora de livros publicados mundialmente. É Google Developer Expert, Microsoft MVP, Oracle Groundbreaker Ambassador e Java Champion. Escreve para o blog http://loiane.com e publica aulas e cursos em http://loiane.training.",
         "social": [
-          { "type": "linkedin", "url": "https://www.linkedin.com/in/thiago-gon%C3%A7alves-santos/" }
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/loiane/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "",
+      "details": "",
+      "speaker": {
+        "name": "Priscilla Albuquerque",
+        "company": "",
+        "photo": "assets/img/2019_priscilla.jpg",
+        "priority": 3,
+        "bio": "Co-founder & UX strategist @Catarinas | Co-founder @UX Overtake | Mentora | Professora | Palestrante",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/priscillaalbuquerque/" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "Saúde Mental e Tecnologia da Informação: enfrentamentos possíveis",
+      "details": "",
+      "speaker": {
+        "name": "Anne Caroline da Silva",
+        "company": "",
+        "photo": "assets/img/anne.png",
+        "priority": 3,
+        "bio": "Psicóloga especialista em Terapia Cognitivo-Comportamental pela UNIFIA e mestranda em Educação pela Univille. Atua na área clínica e coordena o Serviço de Psicologia da Univille.",
+        "social": [
+          { "type": "facebook", "url": "https://www.facebook.com/anne.css00" }
+        ]
+      }
+    },
+    {
+      "time": "-",
+      "title": "Saúde mental: cuidados, estratégias e prevenções",
+      "details": "",
+      "speaker": {
+        "name": "Bruna von Runkel",
+        "company": "TOTVS",
+        "photo": "assets/img/bruna.png",
+        "priority": 3,
+        "bio": "Psicóloga, CRP - 12/16539, Especialista em Gestão estratégica de Pessoas pela PUC PR. Formação complementar em Orientação Profissional & Planejamento de Carreira. Mestranda em Psicologia na Univali. Coordenadora e Business Partner de RH na TOTVS, atua há mais de 11 anos neste segmento com desenvolvimento de lideranças e times ágeis. Instrutora de treinamentos organizacionais de lideranças, relações interpessoais e gestão de pessoas. Atua também como Consultora de Carreira e Orientadora Profissional em consultório particular.",
+        "social": [
+          { "type": "linkedin", "url": "https://www.linkedin.com/in/brunavonrunkel/" }
         ]
       }
     },
