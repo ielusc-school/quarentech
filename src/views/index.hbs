@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
   <title> {{{info.title}}}</title>
@@ -20,7 +21,7 @@
   <meta property="og:image" content="https://devconf.com.br/assets/img/coding2020.jpg?h=1e1f77aighjg" />
   <!-- IE polyfills, keep the order please -->
   <!-- <script src="../assets/js/modenizr-custom.js"></script> -->
-    <script type="application/ld+json">
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Event",
@@ -54,91 +55,94 @@
     }
     </script>
 </head>
+
 <body>
 
-    {{> header/index }}
-    {{> section/hero }}
-    {{> section/about }}
+  {{> header/index }}
+  {{> section/hero }}
+  {{> section/about }}
 
-    {{#if albumLink }}
-      {{> section/eventPhotos }}
-    {{/if}}
+  {{#if albumLink }}
+  {{> section/eventPhotos }}
+  {{/if}}
 
-    {{#if speakers }}
-        {{> section/speaker }}
-    {{else}}
-      <section class="speaker" id="speaker">
-          <div class="wrapper">
-              <h2 class="section-title">Palestrantes</h2>
-              <p>Em breve</p>
-          </div>
-      </section>
-    {{/if}}
-
-    {{#if schedule }}
-        {{> section/schedule }}
-    {{else}}
-      <section class="schedule" id="schedule">
-          <div class="wrapper">
-              <h2 class="section-title">Programação</h2>
-              <p>Em breve a programação</p>
-          </div>
-      </section>
-    {{/if}}
-
-    {{#if workshop_schedule }}
-        {{> section/workshop_schedule }}
-    {{/if}}
-
-    {{> section/sponsor }}
-
-    {{#if partners}}
-        {{> section/partner }}
-    {{/if}}
-
-    <section class="googleMaps" id="cd-google-map">
-        <div id="google-container"></div>
-        <div id="cd-zoom-in"></div>
-        <div id="cd-zoom-out"></div>
-        <address> {{ info.place }}| {{ info.address }}</address>
-    </section>
-
-    {{> section/contact }}
-    {{> footer/index }}
-
-    <div class="modal fade" id="speakersModal" tabindex="-1" aria-labelledby="speakersModal">
-        <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="modalTitle"></h4>
-            </div>
-            <div class="modal-body" id="modalBody">
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-        </div>
+  {{#if speakers }}
+  {{> section/speaker }}
+  {{else}}
+  <section class="speaker" id="speaker">
+    <div class="wrapper">
+      <h2 class="section-title">Palestrantes</h2>
+      <p>Em breve</p>
     </div>
+  </section>
+  {{/if}}
 
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/bootstrap.min.js" async="true"></script>
-    <script src="assets/js/main.js" async="true"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiQ9MVvu3J-DL1uxMSempFbZNXlarEGs0"></script>
-    <script src="{{{sympla.script}}}"></script>
+  {{#if schedule }}
+  {{> section/schedule }}
+  {{else}}
+  <section class="schedule" id="schedule">
+    <div class="wrapper">
+      <h2 class="section-title">Programação</h2>
+      <p>Em breve a programação</p>
+    </div>
+  </section>
+  {{/if}}
+  {{#if workshop_schedule }}
+  {{> section/workshop_schedule }}
+  {{/if}}
+  {{> section/sponsor }}
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  {{#if partners}}
+  {{> section/partner }}
+  {{/if}}
 
-        ga('create', 'UA-96838079-2', 'auto');
-        ga('send', 'pageview');
+  <section class="googleMaps" id="cd-google-map">
+    <div id="google-container"></div>
+    <div id="cd-zoom-in"></div>
+    <div id="cd-zoom-out"></div>
+    <address> {{ info.place }}| {{ info.address }}</address>
+  </section>
 
-    </script>
+  {{> section/contact }}
+  {{> footer/index }}
+
+  <div class="modal fade" id="speakersModal" tabindex="-1" aria-labelledby="speakersModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="modalTitle"></h4>
+        </div>
+        <div class="modal-body" id="modalBody">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/bootstrap.min.js" async="true"></script>
+  <script src="assets/js/main.js" async="true"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiQ9MVvu3J-DL1uxMSempFbZNXlarEGs0"></script>
+  <script src="{{{sympla.script}}}"></script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-96838079-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 
 
 </body>
+
 </html>
