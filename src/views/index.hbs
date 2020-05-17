@@ -4,53 +4,34 @@
   <meta charset="utf-8">
   <title> {{{info.title}}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
-  <link rel="apple-touch-icon image_src" href="/assets/img/favicon.ico">
+  <link rel="apple-touch-icon image_src" href="/assets/img/favicon.png">
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/styles.css?h=1e1f77aighjg">
   <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
   <!-- Open Graph -->
   <meta property="og:title" content="{{{info.title}}}" />
-  <meta property="og:type" content="programação, docker, agile, javascript, mobile" />
+  <meta property="og:type" content="" />
   <meta property="og:site_name" content="{{{ info.eventName }}}" />
-  <meta property="og:url" content="https://devconf.com.br" />
-  <meta property="og:image" content="https://devconf.com.br/assets/img/coding2020.jpg?h=1e1f77aighjg" />
+  <meta property="og:url" content="https://quarentech.surge.sh" />
+  <meta property="og:image" content="https://i.ibb.co/jbFkbKx/quarentech-ielusc.png" />
   <!-- IE polyfills, keep the order please -->
   <!-- <script src="../assets/js/modenizr-custom.js"></script> -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "name": "DevConf 2020",
-      "startDate": "2020-05-16T08:00",
-      "endDate": "2020-05-16T18:00",
-      "location": {
-        "@type": "Place",
-        "name": "Teatro Universitário Florestan Fernandes - UFSCar",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "BRA",
-          "streetAddress": "Av. Biblioteca Comunitária, S/N - Monjolinho",
-          "addressRegion": "SP",
-          "addressLocality": "São Carlos",
-          "postalCode": "13571-000",
-        }
-      },
+      "name": "QuarentTech | IELUSC",
+      "startDate": "2020-05-25T08:00",
+      "endDate": "2020-05-28T18:00",
       "image": [
-        "https://devconf.com.br/assets/img/logos/logo_devconf.png"
+        "https://i.ibb.co/jbFkbKx/quarentech-ielusc.png"
        ],
-      "description": "O DevConf é um evento de tecnologia organizado pelo Opensanca, a maior comunidade ativa de tecnologia do interior de São Paulo. A proposta desta edição do evento é colocar em discussão temas atuais de tecnologia e desenvolvimento de software. Iremos promover apresentações com alto nível de conhecimento e relevância e, estimular a troca de experiência e network entre a comunidade de tecnologia.",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.sympla.com.br/devconf-2020__791212",
-        "price": "60",
-        "priceCurrency": "BRL",
-        "availability": "https://schema.org/InStock",
-        "validFrom": "2020-01-01T12:00"
-      },
+      "description": "Acreditamos que o conhecimento deve ser livre, plural e unir as mais diversas tribos. A partir disso pensamos em estreitar laços, unir ainda mais nossa comunidade. Assim nasceu a #QuarenTech. Quatro dias de live e muita energia sobre o nosso mundo. O universo da tecnologia que, nas últimas semanas, invadiu os lares para ser o principal motor de contato entre amigos, colegas de trabalho e familiares é o principal pilar do evento. A #QuarenTech, representada pelo raio que chega para balançar os dias de isolamento social, devido à COVID-19, é um evento de tecnologia sem fins lucrativos e organizado pelo curso de Sistemas para Internet, da Faculdade Ielusc. É preciso parar, refletir, ouvir o outro. A proposta desta primeira edição é estreitar a comunicação, fomentar o diálogo e colocar em discussão temas atuais como Saúde Mental, Comunidades, Experiência do Usuário, Agile e Tecnologia. Coloque na agenda, entre os dias 25 e 27 de maio, no nosso canal no YouTube.",
     }
     </script>
 </head>
@@ -86,9 +67,9 @@
       </section>
     {{/if}}
 
-    {{#if workshop_schedule }}
+    {{!-- {{#if workshop_schedule }}
         {{> section/workshop_schedule }}
-    {{/if}}
+    {{/if}} --}}
 
     {{> section/sponsor }}
 
@@ -96,12 +77,12 @@
         {{> section/partner }}
     {{/if}}
 
-    <section class="googleMaps" id="cd-google-map">
+    {{!-- <section class="googleMaps" id="cd-google-map">
         <div id="google-container"></div>
         <div id="cd-zoom-in"></div>
         <div id="cd-zoom-out"></div>
         <address> {{ info.place }}| {{ info.address }}</address>
-    </section>
+    </section> --}}
 
     {{> section/contact }}
     {{> footer/index }}
@@ -125,20 +106,5 @@
     <script src="assets/js/jquery-1.12.4.min.js"></script>
     <script src="assets/js/bootstrap.min.js" async="true"></script>
     <script src="assets/js/main.js" async="true"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiQ9MVvu3J-DL1uxMSempFbZNXlarEGs0"></script>
-    <script src="{{{sympla.script}}}"></script>
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-96838079-2', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-
-
 </body>
 </html>

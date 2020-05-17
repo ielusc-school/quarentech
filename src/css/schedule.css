@@ -3,9 +3,26 @@
   border-radius: 0;
 }
 
+.schedule-items li:nth-child(4n+1) {
+  background-color: #2f3542;
+  font-weight: 700;
+  color: #f29f25;
+}
+
+.schedule-items li:nth-child(4n+1):hover {
+  background-color: #2f3542;
+  font-weight: 700;
+  color: #f29f25;
+}
+
+.schedule-items li:last-child {
+  background-color: transparent;
+  font-weight: normal;
+  color: #434343;
+}
 .schedule-items li {
   padding: 20px 10px;
-  border-bottom:1px solid #4a0864;
+  border-bottom:1px solid #951AA1;
 }
 
 .schedule-items label h3  {
@@ -19,7 +36,9 @@
 }
 
 .schedule-items li:hover {
-  background: #f2f2f2;
+  background-color: #2f3542;
+  font-weight: 700;
+  color: #f29f25;
   border-bottom:1px solid #951AA1;
 }
 
