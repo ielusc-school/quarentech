@@ -9,7 +9,8 @@
   padding-top: 10px;
 }
 .about p {
-  text-align: justify;
+  text-align: left;
+  line-height: 25px;
   font-size: 1.2em;
 }
 
